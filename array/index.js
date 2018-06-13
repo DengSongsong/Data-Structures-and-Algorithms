@@ -45,7 +45,7 @@ console.log(names.indexOf('Raymond')) // 2
 console.log(names.indexOf('jxufe')) // -1
 
 // 数组的字符串表示
-// 将数组转化为字符串：join()、toString()，均返回一个包含数组所有元素的字符串,join()若为传入参数各元素之间用逗号隔开
+// 将数组转化为字符串：join()、toString()，均返回一个包含数组所有元素的字符串,join()若未传入参数各元素之间用逗号隔开
 let names = ['David', 'Cynthia', 'Raymond', 'Clayton', 'Jennifer']
 let nameStr = names.join()
 console.log(nameStr) // David,Cynthia,Raymond,Clayton,Jennifer
